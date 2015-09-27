@@ -1,0 +1,35 @@
+Dependencies for Project 'sample_06', Target 'KL46Z': (DO NOT MODIFY !)
+F (.\main.c)(0x55A7A58B)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I "E:\FPT Global Sofware Talent\Project2\As6\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (MCG.h)(0x55A62F02)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419AB8C)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+I (GPIO.h)(0x55A622C8)
+F (.\MCG.c)(0x55A77C24)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I "E:\FPT Global Sofware Talent\Project2\As6\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\objects\mcg.o --omf_browse .\objects\mcg.crf --depend .\objects\mcg.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+F (.\GPIO.c)(0x55A78AA7)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I "E:\FPT Global Sofware Talent\Project2\As6\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419AB8C)
+I (GPIO.h)(0x55A622C8)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+F (RTE\Device\MKL46Z256xxx4\startup_MKL46Z4.s)(0x51BFCCC8)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I "E:\FPT Global Sofware Talent\Project2\As6\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include--pd "_RTE_ SETA 1" --pd "MKL46Z256xxx4 SETA 1"--list .\listings\startup_mkl46z4.lst --xref -o .\objects\startup_mkl46z4.o --depend .\objects\startup_mkl46z4.d)
+F (RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c)(0x55A718B3)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I "E:\FPT Global Sofware Talent\Project2\As6\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\objects\system_mkl46z4.o --omf_browse .\objects\system_mkl46z4.crf --depend .\objects\system_mkl46z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)

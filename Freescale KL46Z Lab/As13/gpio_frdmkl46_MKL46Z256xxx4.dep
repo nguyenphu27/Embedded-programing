@@ -1,0 +1,2021 @@
+Dependencies for Project 'gpio_frdmkl46', Target 'MKL46Z256xxx4': (DO NOT MODIFY !)
+F (.\MQXLITE\psp\cortex_m\core\M0\boot.S)(0x54575720)(--cpu Cortex-M0+ -g --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0" --cpreproc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis--list .\boot.lst --xref -o .\uvbuild\boot.o --depend .\uvbuild\boot.d)
+F (.\MQXLITE\psp\cortex_m\core\M0\dispatch.S)(0x54575720)(--cpu Cortex-M0+ -g --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0" --cpreproc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis--list .\dispatch.lst --xref -o .\uvbuild\dispatch.o --depend .\uvbuild\dispatch.d)
+F (.\Generated_Code\Cpu.c)(0x54589427)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\cpu.o --omf_browse .\uvbuild\cpu.crf --depend .\uvbuild\cpu.d)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (Generated_Code\MQX1.h)(0x54575E0E)
+I (Generated_Code\PE_Types.h)(0x54575E0F)
+I (Generated_Code\PE_Error.h)(0x54575E0B)
+I (Generated_Code\PE_Const.h)(0x54575E0B)
+I (Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (Generated_Code\IO1.h)(0x54575E0D)
+I (Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (Generated_Code\LED.h)(0x54575E0C)
+I (.\Sources\Events.h)(0x54575E0F)
+I (.\Sources\mqx_tasks.h)(0x54575E0F)
+F (.\Generated_Code\CsIO1.c)(0x54589540)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\csio1.o --omf_browse .\uvbuild\csio1.crf --depend .\uvbuild\csio1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x53464854)
+I (Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x53464854)
+I (.\Static_Code\PDD\UART0_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+F (.\Sources\Events.c)(0x54575ECD)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\events.o --omf_browse .\uvbuild\events.crf --depend .\uvbuild\events.d)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (Sources\Events.h)(0x54575E0F)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (Sources\mqx_tasks.h)(0x54575E0F)
+F (.\Generated_Code\GPIO1.c)(0x54589427)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\gpio1.o --omf_browse .\uvbuild\gpio1.crf --depend .\uvbuild\gpio1.d)
+I (.\Sources\Events.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+F (.\Generated_Code\IO1.c)(0x54588717)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\io1.o --omf_browse .\uvbuild\io1.crf --depend .\uvbuild\io1.d)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (Generated_Code\IO1.h)(0x54575E0D)
+I (Generated_Code\Cpu.h)(0x54588717)
+I (Generated_Code\PE_Types.h)(0x54575E0F)
+I (Generated_Code\PE_Error.h)(0x54575E0B)
+I (Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Static_Code\PDD\UART0_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+F (.\Generated_Code\MQX1.c)(0x54575E0E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\mqx1.o --omf_browse .\uvbuild\mqx1.crf --depend .\uvbuild\mqx1.d)
+I (Generated_Code\MQX1.h)(0x54575E0E)
+I (Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (Generated_Code\PE_Error.h)(0x54575E0B)
+I (Generated_Code\PE_Const.h)(0x54575E0B)
+I (Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Sources\mqx_tasks.h)(0x54575E0F)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+F (.\Generated_Code\PE_LDD.c)(0x54575E0F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\pe_ldd.o --omf_browse .\uvbuild\pe_ldd.crf --depend .\uvbuild\pe_ldd.d)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (Generated_Code\PE_LDD.h)(0x54575E0F)
+I (Generated_Code\PE_Types.h)(0x54575E0F)
+I (Generated_Code\PE_Error.h)(0x54575E0B)
+I (Generated_Code\PE_Const.h)(0x54575E0B)
+I (Generated_Code\MQX1.h)(0x54575E0E)
+I (Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (Generated_Code\IO1.h)(0x54575E0D)
+I (Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (Generated_Code\LED.h)(0x54575E0C)
+F (.\Generated_Code\SystemTimer1.c)(0x54588717)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\systemtimer1.o --omf_browse .\uvbuild\systemtimer1.crf --depend .\uvbuild\systemtimer1.d)
+I (Generated_Code\MQX1.h)(0x54575E0E)
+I (Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (Generated_Code\PE_Error.h)(0x54575E0B)
+I (Generated_Code\PE_Const.h)(0x54575E0B)
+I (Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+F (.\Generated_Code\Vectors.c)(0x54575E0F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\vectors.o --omf_browse .\uvbuild\vectors.crf --depend .\uvbuild\vectors.d)
+I (Generated_Code\Cpu.h)(0x54588717)
+I (Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (Generated_Code\PE_Error.h)(0x54575E0B)
+I (Generated_Code\PE_Const.h)(0x54575E0B)
+I (Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (Generated_Code\MQX1.h)(0x54575E0E)
+I (Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (Generated_Code\IO1.h)(0x54575E0D)
+I (Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (Generated_Code\LED.h)(0x54575E0C)
+I (.\Sources\Events.h)(0x54575E0F)
+I (.\Sources\mqx_tasks.h)(0x54575E0F)
+F (.\MQXLITE\psp\cortex_m\cortex.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\cortex.o --omf_browse .\uvbuild\cortex.crf --depend .\uvbuild\cortex.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\idletask.c)(0x5457571E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\idletask.o --omf_browse .\uvbuild\idletask.crf --depend .\uvbuild\idletask.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\int.c)(0x5457571E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\int.o --omf_browse .\uvbuild\int.crf --depend .\uvbuild\int.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\int_gkis.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\int_gkis.o --omf_browse .\uvbuild\int_gkis.crf --depend .\uvbuild\int_gkis.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\int_inst.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\int_inst.o --omf_browse .\uvbuild\int_inst.crf --depend .\uvbuild\int_inst.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\int_kisr.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\int_kisr.o --omf_browse .\uvbuild\int_kisr.crf --depend .\uvbuild\int_kisr.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\int_pvta.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\int_pvta.o --omf_browse .\uvbuild\int_pvta.crf --depend .\uvbuild\int_pvta.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\int_unx.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\int_unx.o --omf_browse .\uvbuild\int_unx.crf --depend .\uvbuild\int_unx.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\int_vtab.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\int_vtab.o --omf_browse .\uvbuild\int_vtab.crf --depend .\uvbuild\int_vtab.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\int_xcpt.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\int_xcpt.o --omf_browse .\uvbuild\int_xcpt.crf --depend .\uvbuild\int_xcpt.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\klog.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\klog.o --omf_browse .\uvbuild\klog.crf --depend .\uvbuild\klog.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\lwevent.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\lwevent.o --omf_browse .\uvbuild\lwevent.crf --depend .\uvbuild\lwevent.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\lwlog.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\lwlog.o --omf_browse .\uvbuild\lwlog.crf --depend .\uvbuild\lwlog.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\lwmem.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\lwmem.o --omf_browse .\uvbuild\lwmem.crf --depend .\uvbuild\lwmem.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+I (.\MQXLITE\include\lwmem_prv.h)(0x5457571D)
+F (.\MQXLITE\kernel\lwmsgq.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\lwmsgq.o --omf_browse .\uvbuild\lwmsgq.crf --depend .\uvbuild\lwmsgq.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\lwsem.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\lwsem.o --omf_browse .\uvbuild\lwsem.crf --depend .\uvbuild\lwsem.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\lwtimer.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\lwtimer.o --omf_browse .\uvbuild\lwtimer.crf --depend .\uvbuild\lwtimer.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\Sources\main.c)(0x54575E0F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\main.o --omf_browse .\uvbuild\main.crf --depend .\uvbuild\main.d)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (Sources\Events.h)(0x54575E0F)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (Sources\mqx_tasks.h)(0x54575E0F)
+F (.\MQXLITE\psp\cortex_m\mem_zero.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\mem_zero.o --omf_browse .\uvbuild\mem_zero.crf --depend .\uvbuild\mem_zero.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\Sources\mqx_tasks.c)(0x54589699)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\mqx_tasks.o --omf_browse .\uvbuild\mqx_tasks.crf --depend .\uvbuild\mqx_tasks.d)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (Sources\Events.h)(0x54575E0F)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (Sources\mqx_tasks.h)(0x54575E0F)
+F (.\MQXLITE\kernel\mqx_utils.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\mqx_utils.o --omf_browse .\uvbuild\mqx_utils.crf --depend .\uvbuild\mqx_utils.d)
+I (C:\Keil_v5\ARM\ARMCC\include\setjmp.h)(0x53464854)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\mqxlite.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\mqxlite.o --omf_browse .\uvbuild\mqxlite.crf --depend .\uvbuild\mqxlite.d)
+I (C:\Keil_v5\ARM\ARMCC\include\setjmp.h)(0x53464854)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\mutex.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\mutex.o --omf_browse .\uvbuild\mutex.crf --depend .\uvbuild\mutex.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\psp_iinit.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\psp_iinit.o --omf_browse .\uvbuild\psp_iinit.crf --depend .\uvbuild\psp_iinit.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\psp_supp.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\psp_supp.o --omf_browse .\uvbuild\psp_supp.crf --depend .\uvbuild\psp_supp.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\psp_tiad.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\psp_tiad.o --omf_browse .\uvbuild\psp_tiad.crf --depend .\uvbuild\psp_tiad.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\psp_tinm.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\psp_tinm.o --omf_browse .\uvbuild\psp_tinm.crf --depend .\uvbuild\psp_tinm.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\psp_tipr.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\psp_tipr.o --omf_browse .\uvbuild\psp_tipr.crf --depend .\uvbuild\psp_tipr.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\psp_tisu.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\psp_tisu.o --omf_browse .\uvbuild\psp_tisu.crf --depend .\uvbuild\psp_tisu.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\qu_test.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\qu_test.o --omf_browse .\uvbuild\qu_test.crf --depend .\uvbuild\qu_test.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\sc_irdyq.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\sc_irdyq.o --omf_browse .\uvbuild\sc_irdyq.crf --depend .\uvbuild\sc_irdyq.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\kernel\sched.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\sched.o --omf_browse .\uvbuild\sched.crf --depend .\uvbuild\sched.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\stack_bu.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\stack_bu.o --omf_browse .\uvbuild\stack_bu.crf --depend .\uvbuild\stack_bu.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\stack_de.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\stack_de.o --omf_browse .\uvbuild\stack_de.crf --depend .\uvbuild\stack_de.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\psp\cortex_m\stack_st.c)(0x54575720)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\stack_st.o --omf_browse .\uvbuild\stack_st.crf --depend .\uvbuild\stack_st.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\Project_Settings\Startup_Code\startup_ARM_CC.c)(0x54575726)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\startup_arm_cc.o --omf_browse .\uvbuild\startup_arm_cc.crf --depend .\uvbuild\startup_arm_cc.d)
+F (.\MQXLITE\kernel\task.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\task.o --omf_browse .\uvbuild\task.crf --depend .\uvbuild\task.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53464854)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\MQXLITE\config\task_template_list.c)(0x54575E0E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\task_template_list.o --omf_browse .\uvbuild\task_template_list.crf --depend .\uvbuild\task_template_list.d)
+I (MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\Sources\mqx_tasks.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+F (.\MQXLITE\kernel\time_ticks.c)(0x5457571F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\time_ticks.o --omf_browse .\uvbuild\time_ticks.crf --depend .\uvbuild\time_ticks.d)
+I (.\MQXLITE\include\mqx_inc.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\Generated_Code\PE_LDD.h)(0x54575E0F)
+I (.\Generated_Code\PE_Types.h)(0x54575E0F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\Generated_Code\PE_Error.h)(0x54575E0B)
+I (.\Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Generated_Code\MQX1.h)(0x54575E0E)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\Generated_Code\SystemTimer1.h)(0x54588716)
+I (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (.\Generated_Code\Cpu.h)(0x54588717)
+I (.\MQXLITE\config\task_template_list.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (.\Generated_Code\CsIO1.h)(0x54575E0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (.\Generated_Code\IO1.h)(0x54575E0D)
+I (.\Generated_Code\GPIO1.h)(0x54589427)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)
+I (.\Generated_Code\LED.h)(0x54575E0C)
+I (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)
+F (.\Generated_Code\LED.c)(0x5457652C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\MQXLITE\include" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\MQXLITE\psp\cortex_m\core\M0" -I ".\MQXLITE\psp\cortex_m\compiler\rv" -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\MQXLITE\config" -I ".\MQXLITE\kernel" -I ".\MQXLITE\psp\cortex_m" -I ".\Project_Settings\Startup_Code" -I ".\Sources" -I ".\MQXLITE\psp\cortex_m\core\M0"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMKL46Z256xxx4-o .\uvbuild\led.o --omf_browse .\uvbuild\led.crf --depend .\uvbuild\led.d)
+I (.\MQXLITE\include\mqxlite.h)(0x5457571E)
+I (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)
+I (.\MQXLITE\config\user_config.h)(0x54575E0D)
+I (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)
+I (.\MQXLITE\include\mqx_macros.h)(0x5457571E)
+I (.\MQXLITE\include\queue.h)(0x5457571E)
+I (.\MQXLITE\include\lwsem.h)(0x5457571D)
+I (.\MQXLITE\include\lwmem.h)(0x5457571D)
+I (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)
+I (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)
+I (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)
+I (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)
+I (.\Generated_Code\IO_Map.h)(0x54575E0B)
+I (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)
+I (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)
+I (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)
+I (Generated_Code\LED.h)(0x54575E0C)
+I (Generated_Code\PE_Types.h)(0x54575E0F)
+I (Generated_Code\PE_Error.h)(0x54575E0B)
+I (Generated_Code\PE_Const.h)(0x54575E0B)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)
+I (.\Static_Code\PDD\PDD_Types.h)(0x54575726)
+I (Generated_Code\Cpu.h)(0x54588717)
+F (.\Static_Code\PDD\ADC_PDD.h)(0x54575726)()
+F (.\Static_Code\PDD\CMP_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\COP_PDD.h)(0x54575727)()
+F (.\Generated_Code\Cpu.h)(0x54588717)()
+F (.\Generated_Code\CsIO1.h)(0x54575E0C)()
+F (.\Static_Code\PDD\DAC_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\DMAMUX_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\DMA_PDD.h)(0x54575727)()
+F (.\Sources\Events.h)(0x54575E0F)()
+F (.\Static_Code\PDD\FTFA_PDD.h)(0x54575727)()
+F (.\Generated_Code\GPIO1.h)(0x54589427)()
+F (.\Static_Code\PDD\GPIO_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\I2C_PDD.h)(0x54575727)()
+F (.\Generated_Code\IO1.h)(0x54575E0D)()
+F (.\Generated_Code\IO_Map.h)(0x54575E0B)()
+F (.\Static_Code\PDD\LCD_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\LPTMR_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\MCM_PDD.h)(0x54575727)()
+F (.\Static_Code\IO_Map\MKL46Z4.h)(0x54575726)()
+F (.\Generated_Code\MQX1.h)(0x54575E0E)()
+F (.\Static_Code\PDD\PDD_Types.h)(0x54575726)()
+F (.\Generated_Code\PE_Const.h)(0x54575E0B)()
+F (.\Generated_Code\PE_Error.h)(0x54575E0B)()
+F (.\Generated_Code\PE_LDD.h)(0x54575E0F)()
+F (.\Generated_Code\PE_Types.h)(0x54575E0F)()
+F (.\Static_Code\PDD\PIT_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\PORT_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\RTC_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\SAI_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\SIM_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\SPI_PDD.h)(0x54575727)()
+F (.\Static_Code\PDD\SysTick_PDD.h)(0x54575728)()
+F (.\Generated_Code\SystemTimer1.h)(0x54588716)()
+F (.\Static_Code\PDD\TPM_PDD.h)(0x54575728)()
+F (.\Static_Code\PDD\UART0_PDD.h)(0x54575728)()
+F (.\Static_Code\PDD\UART_PDD.h)(0x54575728)()
+F (.\Static_Code\PDD\USB_PDD.h)(0x54575728)()
+F (.\MQXLITE\psp\cortex_m\compiler\rv\asm_mac.h)(0x54575720)()
+F (.\MQXLITE\psp\cortex_m\compiler\rv\comp.h)(0x54575720)()
+F (.\MQXLITE\psp\cortex_m\cortex.h)(0x5457571F)()
+F (.\MQXLITE\psp\cortex_m\kinetis.h)(0x54575720)()
+F (.\MQXLITE\include\klog.h)(0x5457571D)()
+F (.\MQXLITE\include\log.h)(0x5457571D)()
+F (.\MQXLITE\include\lwevent.h)(0x5457571D)()
+F (.\MQXLITE\include\lwevent_prv.h)(0x5457571D)()
+F (.\MQXLITE\include\lwlog.h)(0x5457571D)()
+F (.\MQXLITE\include\lwlog_prv.h)(0x5457571D)()
+F (.\MQXLITE\include\lwmem.h)(0x5457571D)()
+F (.\MQXLITE\include\lwmem_prv.h)(0x5457571D)()
+F (.\MQXLITE\include\lwmsgq.h)(0x5457571D)()
+F (.\MQXLITE\include\lwmsgq_prv.h)(0x5457571D)()
+F (.\MQXLITE\include\lwsem.h)(0x5457571D)()
+F (.\MQXLITE\include\lwsem_prv.h)(0x5457571D)()
+F (.\MQXLITE\include\lwtimer.h)(0x5457571D)()
+F (.\MQXLITE\include\lwtimer_prv.h)(0x5457571D)()
+F (.\MQXLITE\include\mqx_cnfg.h)(0x5457571E)()
+F (.\MQXLITE\include\mqx_cpudef.h)(0x5457571E)()
+F (.\MQXLITE\include\mqx_inc.h)(0x5457571E)()
+F (.\MQXLITE\include\mqx_macros.h)(0x5457571E)()
+F (.\MQXLITE\include\mqx_str.h)(0x5457571E)()
+F (.\Sources\mqx_tasks.h)(0x54575E0F)()
+F (.\MQXLITE\include\mqxlite.h)(0x5457571E)()
+F (.\MQXLITE\include\mqxlite_cnfg.h)(0x5457571E)()
+F (.\MQXLITE\include\mqxlite_prv.h)(0x5457571E)()
+F (.\MQXLITE\include\mutex.h)(0x5457571E)()
+F (.\MQXLITE\include\mutex_prv.h)(0x5457571E)()
+F (.\MQXLITE\psp\cortex_m\psp_comp.h)(0x54575720)()
+F (.\MQXLITE\psp\cortex_m\psp_cpu.h)(0x54575720)()
+F (.\MQXLITE\psp\cortex_m\psp_cpudef.h)(0x54575720)()
+F (.\MQXLITE\psp\cortex_m\psp_prv.h)(0x54575720)()
+F (.\MQXLITE\psp\cortex_m\psp_supp.h)(0x54575720)()
+F (.\MQXLITE\psp\cortex_m\psp_ticks.h)(0x54575720)()
+F (.\MQXLITE\psp\cortex_m\psplite.h)(0x54575720)()
+F (.\MQXLITE\psp\cortex_m\psptypes.h)(0x54575720)()
+F (.\MQXLITE\include\queue.h)(0x5457571E)()
+F (.\MQXLITE\config\task_template_list.h)(0x54575E0D)()
+F (.\MQXLITE\config\user_config.h)(0x54575E0D)()
+F (.\Generated_Code\LED.h)(0x54575E0C)()

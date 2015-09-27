@@ -1,0 +1,9 @@
+E:\FPT Global Sofware Talent\Bootloader project\ToolTerminal\Terminal-GST.050.G7\Terminal-GST.050.G7\bin\Debug\Terminal.G7.exe.config
+E:\FPT Global Sofware Talent\Bootloader project\ToolTerminal\Terminal-GST.050.G7\Terminal-GST.050.G7\bin\Debug\Terminal.G7.exe
+E:\FPT Global Sofware Talent\Bootloader project\ToolTerminal\Terminal-GST.050.G7\Terminal-GST.050.G7\bin\Debug\Terminal.G7.pdb
+E:\FPT Global Sofware Talent\Bootloader project\ToolTerminal\Terminal-GST.050.G7\Terminal-GST.050.G7\obj\Debug\Terminal_GST._050.G7.Form1.resources
+E:\FPT Global Sofware Talent\Bootloader project\ToolTerminal\Terminal-GST.050.G7\Terminal-GST.050.G7\obj\Debug\Terminal.G7.Properties.Resources.resources
+E:\FPT Global Sofware Talent\Bootloader project\ToolTerminal\Terminal-GST.050.G7\Terminal-GST.050.G7\obj\Debug\Terminal-GST.050.G7.csproj.GenerateResource.Cache
+E:\FPT Global Sofware Talent\Bootloader project\ToolTerminal\Terminal-GST.050.G7\Terminal-GST.050.G7\obj\Debug\Terminal.G7.exe
+E:\FPT Global Sofware Talent\Bootloader project\ToolTerminal\Terminal-GST.050.G7\Terminal-GST.050.G7\obj\Debug\Terminal.G7.pdb
+E:\FPT Global Sofware Talent\Bootloader project\ToolTerminal\Terminal-GST.050.G7\Terminal-GST.050.G7\obj\Debug\Terminal-GST.050.G7.csprojResolveAssemblyReference.cache

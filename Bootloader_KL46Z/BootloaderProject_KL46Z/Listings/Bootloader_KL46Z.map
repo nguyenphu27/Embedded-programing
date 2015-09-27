@@ -1,0 +1,358 @@
+Component: ARM Compiler 5.05 (build 41) Tool: armlink [4d0eb9]
+
+==============================================================================
+
+Section Cross References
+
+    main.o(.text) refers to uart.o(.text) for UART0_GetChar
+    main.o(.text) refers to main.o(.emb_text) for JumpToRam
+    main.o(.text) refers to parse_srec.o(.text) for ConvertAndParse
+    main.o(.text) refers to main.o(.data) for i
+    main.o(.text) refers to main.o(.bss) for buffer
+    gpio.o(.text) refers to gpio.o(.constdata) for led_mask
+    parse_srec.o(.text) refers to parse_srec.o(.data) for j
+    parse_srec.o(.text) refers to parse_srec.o(.bss) for data
+    startup_mkl46z4.o(RESET) refers to startup_mkl46z4.o(STACK) for __initial_sp
+    startup_mkl46z4.o(RESET) refers to startup_mkl46z4.o(.text) for Reset_Handler
+    startup_mkl46z4.o(RESET) refers to main.o(.text) for UART0_IRQHandler
+    startup_mkl46z4.o(.text) refers to system_mkl46z4.o(.text) for SystemInit
+    startup_mkl46z4.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    system_mkl46z4.o(.text) refers to uidiv.o(.text) for __aeabi_uidivmod
+    system_mkl46z4.o(.text) refers to system_mkl46z4.o(i.__ARM_common_switch8) for __ARM_common_switch8
+    system_mkl46z4.o(.text) refers to system_mkl46z4.o(.data) for SystemCoreClock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_mkl46z4.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_mkl46z4.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(.text) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(.text) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing uart.o(.rev16_text), (4 bytes).
+    Removing uart.o(.revsh_text), (4 bytes).
+    Removing uart.o(.data), (8 bytes).
+    Removing gpio.o(.rev16_text), (4 bytes).
+    Removing gpio.o(.revsh_text), (4 bytes).
+    Removing gpio.o(.text), (332 bytes).
+    Removing gpio.o(.constdata), (8 bytes).
+    Removing parse_srec.o(.rev16_text), (4 bytes).
+    Removing parse_srec.o(.revsh_text), (4 bytes).
+    Removing startup_mkl46z4.o(HEAP), (0 bytes).
+    Removing system_mkl46z4.o(.rev16_text), (4 bytes).
+    Removing system_mkl46z4.o(.revsh_text), (4 bytes).
+
+14 unused section(s) (total 388 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      192  startup_mkl46z4.o(RESET)
+    ../clib/microlib/division.c              0x00000000   Number         0  uidiv.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    RTE\Device\MKL46Z256xxx4\startup_MKL46Z4.s 0x00000000   Number         0  startup_mkl46z4.o ABSOLUTE
+    RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c 0x00000000   Number         0  system_mkl46z4.o ABSOLUTE
+    RTE\\Device\\MKL46Z256xxx4\\system_MKL46Z4.c 0x00000000   Number         0  system_mkl46z4.o ABSOLUTE
+    Source\GPIO.c                            0x00000000   Number         0  gpio.o ABSOLUTE
+    Source\Parse_srec.c                      0x00000000   Number         0  parse_srec.o ABSOLUTE
+    Source\UART.c                            0x00000000   Number         0  uart.o ABSOLUTE
+    Source\\GPIO.c                           0x00000000   Number         0  gpio.o ABSOLUTE
+    Source\\Parse_srec.c                     0x00000000   Number         0  parse_srec.o ABSOLUTE
+    Source\\UART.c                           0x00000000   Number         0  uart.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    .ARM.Collect$$$$00000000                 0x000000c0   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x000000c0   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x000000c4   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x000000c8   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x000000c8   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x000000c8   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x000000d0   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x000000d0   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x000000d0   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x000000d0   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .emb_text                                0x000000d4   Section       16  main.o(.emb_text)
+    .text                                    0x000000e4   Section        0  main.o(.text)
+    .text                                    0x00000304   Section       28  startup_mkl46z4.o(.text)
+    .text                                    0x00000320   Section        0  uidiv.o(.text)
+    .text                                    0x0000034c   Section       36  init.o(.text)
+    i.__ARM_common_switch8                   0x00000370   Section        0  system_mkl46z4.o(i.__ARM_common_switch8)
+    i.__scatterload_copy                     0x0000038c   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x0000039a   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x0000039c   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .ARM.__at_0x400                          0x00000400   Section       16  startup_mkl46z4.o(.ARM.__at_0x400)
+    .text                                    0x00000410   Section        0  uart.o(.text)
+    NVIC_SetPriority                         0x00000509   Thumb Code   110  uart.o(.text)
+    .text                                    0x00000590   Section        0  parse_srec.o(.text)
+    .text                                    0x00000714   Section        0  system_mkl46z4.o(.text)
+    .data                                    0x20004000   Section       28  main.o(.data)
+    .data                                    0x2000401c   Section       20  parse_srec.o(.data)
+    j                                        0x2000401c   Data           4  parse_srec.o(.data)
+    l                                        0x20004020   Data           4  parse_srec.o(.data)
+    data_l                                   0x20004024   Data           4  parse_srec.o(.data)
+    address                                  0x20004028   Data           4  parse_srec.o(.data)
+    check_sum                                0x2000402c   Data           4  parse_srec.o(.data)
+    .data                                    0x20004030   Section        4  system_mkl46z4.o(.data)
+    .bss                                     0x20004034   Section      128  main.o(.bss)
+    .bss                                     0x200040b4   Section       15  parse_srec.o(.bss)
+    data                                     0x200040b4   Data          15  parse_srec.o(.bss)
+    STACK                                    0x200040c8   Section      256  startup_mkl46z4.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv3M$S$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$MICROLIB$REQ8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_mkl46z4.o(RESET)
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_End                            0x000000c0   Data           0  startup_mkl46z4.o(RESET)
+    __Vectors_Size                           0x000000c0   Number         0  startup_mkl46z4.o ABSOLUTE
+    __main                                   0x000000c1   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x000000c1   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x000000c5   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x000000c9   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x000000c9   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x000000c9   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x000000c9   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x000000d1   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x000000d1   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    JumpToRam                                0x000000d5   Thumb Code    10  main.o(.emb_text)
+    sram_write                               0x000000e5   Thumb Code    42  main.o(.text)
+    UART0_IRQHandler                         0x0000010f   Thumb Code   446  main.o(.text)
+    main                                     0x000002cd   Thumb Code    12  main.o(.text)
+    Reset_Handler                            0x00000305   Thumb Code     8  startup_mkl46z4.o(.text)
+    NMI_Handler                              0x0000030d   Thumb Code     2  startup_mkl46z4.o(.text)
+    HardFault_Handler                        0x0000030f   Thumb Code     2  startup_mkl46z4.o(.text)
+    SVC_Handler                              0x00000311   Thumb Code     2  startup_mkl46z4.o(.text)
+    PendSV_Handler                           0x00000313   Thumb Code     2  startup_mkl46z4.o(.text)
+    SysTick_Handler                          0x00000315   Thumb Code     2  startup_mkl46z4.o(.text)
+    ADC0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    CMP0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    DAC0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    DMA0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    DMA1_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    DMA2_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    DMA3_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    DefaultISR                               0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    FTFA_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    I2C0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    I2C1_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    I2S0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    LCD_IRQHandler                           0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    LLW_IRQHandler                           0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    LPTimer_IRQHandler                       0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    LVD_LVW_IRQHandler                       0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    MCG_IRQHandler                           0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    PIT_IRQHandler                           0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    PORTA_IRQHandler                         0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    PORTC_PORTD_IRQHandler                   0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    RTC_IRQHandler                           0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    RTC_Seconds_IRQHandler                   0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    Reserved20_IRQHandler                    0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    SPI0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    SPI1_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    TPM0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    TPM1_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    TPM2_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    TSI0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    UART1_IRQHandler                         0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    UART2_IRQHandler                         0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    USB0_IRQHandler                          0x00000317   Thumb Code     0  startup_mkl46z4.o(.text)
+    __aeabi_uidiv                            0x00000321   Thumb Code     0  uidiv.o(.text)
+    __aeabi_uidivmod                         0x00000321   Thumb Code    44  uidiv.o(.text)
+    __scatterload                            0x0000034d   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x0000034d   Thumb Code     0  init.o(.text)
+    __ARM_common_switch8                     0x00000371   Thumb Code    28  system_mkl46z4.o(i.__ARM_common_switch8)
+    __scatterload_copy                       0x0000038d   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x0000039b   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x0000039d   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    Region$$Table$$Base                      0x000003ac   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x000003cc   Number         0  anon$$obj.o(Region$$Table)
+    Init_UART                                0x00000411   Thumb Code   112  uart.o(.text)
+    UART0_PutChar                            0x00000481   Thumb Code    20  uart.o(.text)
+    UART0_GetChar                            0x00000495   Thumb Code    20  uart.o(.text)
+    fputc                                    0x000004a9   Thumb Code    16  uart.o(.text)
+    fgetc                                    0x000004b9   Thumb Code    20  uart.o(.text)
+    UART0_AsyncReceive                       0x000004cd   Thumb Code    60  uart.o(.text)
+    ConvertAndParse                          0x00000591   Thumb Code   256  parse_srec.o(.text)
+    Get_CountByte                            0x00000691   Thumb Code     6  parse_srec.o(.text)
+    Get_Address                              0x00000697   Thumb Code     6  parse_srec.o(.text)
+    Get_Data                                 0x0000069d   Thumb Code     4  parse_srec.o(.text)
+    Get_CheckSum                             0x000006a1   Thumb Code     6  parse_srec.o(.text)
+    CheckSum                                 0x000006a7   Thumb Code    86  parse_srec.o(.text)
+    SystemInit                               0x00000715   Thumb Code   102  system_mkl46z4.o(.text)
+    SystemCoreClockUpdate                    0x0000077b   Thumb Code   322  system_mkl46z4.o(.text)
+    ch                                       0x20004000   Data           1  main.o(.data)
+    data_buffer                              0x20004004   Data           4  main.o(.data)
+    address_poiter                           0x20004008   Data           4  main.o(.data)
+    count                                    0x2000400c   Data           1  main.o(.data)
+    totalchar                                0x2000400d   Data           1  main.o(.data)
+    Bc1                                      0x2000400e   Data           1  main.o(.data)
+    Bc2                                      0x2000400f   Data           1  main.o(.data)
+    i                                        0x20004010   Data           4  main.o(.data)
+    address_line                             0x20004014   Data           4  main.o(.data)
+    data_length                              0x20004018   Data           4  main.o(.data)
+    SystemCoreClock                          0x20004030   Data           4  system_mkl46z4.o(.data)
+    buffer                                   0x20004034   Data         128  main.o(.bss)
+    __initial_sp                             0x200041c8   Data           0  startup_mkl46z4.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000c1
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00000910, Max: 0x00040000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x000008dc, Max: 0x00040000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x000000c0   Data   RO          154    RESET               startup_mkl46z4.o
+    0x000000c0   0x00000000   Code   RO          190  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x000000c0   0x00000004   Code   RO          195    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x000000c4   0x00000004   Code   RO          198    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x000000c8   0x00000000   Code   RO          200    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x000000c8   0x00000000   Code   RO          202    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x000000c8   0x00000008   Code   RO          203    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x000000d0   0x00000000   Code   RO          205    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x000000d0   0x00000000   Code   RO          207    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x000000d0   0x00000004   Code   RO          196    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x000000d4   0x00000010   Code   RO            3    .emb_text           main.o
+    0x000000e4   0x00000220   Code   RO            4    .text               main.o
+    0x00000304   0x0000001c   Code   RO          156    .text               startup_mkl46z4.o
+    0x00000320   0x0000002c   Code   RO          193    .text               mc_p.l(uidiv.o)
+    0x0000034c   0x00000024   Code   RO          209    .text               mc_p.l(init.o)
+    0x00000370   0x0000001c   Code   RO          182    i.__ARM_common_switch8  system_mkl46z4.o
+    0x0000038c   0x0000000e   Code   RO          213    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x0000039a   0x00000002   Code   RO          214    i.__scatterload_null  mc_p.l(handlers.o)
+    0x0000039c   0x0000000e   Code   RO          215    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x000003aa   0x00000002   PAD
+    0x000003ac   0x00000020   Data   RO          211    Region$$Table       anon$$obj.o
+    0x000003cc   0x00000034   PAD
+    0x00000400   0x00000010   Code   RO          155    .ARM.__at_0x400     startup_mkl46z4.o
+    0x00000410   0x00000180   Code   RO           66    .text               uart.o
+    0x00000590   0x00000184   Code   RO          128    .text               parse_srec.o
+    0x00000714   0x000001c8   Code   RO          164    .text               system_mkl46z4.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x20004000, Size: 0x000001c8, Max: 0x00002000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20004000   0x0000001c   Data   RW            6    .data               main.o
+    0x2000401c   0x00000014   Data   RW          130    .data               parse_srec.o
+    0x20004030   0x00000004   Data   RW          165    .data               system_mkl46z4.o
+    0x20004034   0x00000080   Zero   RW            5    .bss                main.o
+    0x200040b4   0x0000000f   Zero   RW          129    .bss                parse_srec.o
+    0x200040c3   0x00000005   PAD
+    0x200040c8   0x00000100   Zero   RW          152    STACK               startup_mkl46z4.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       560         50          0         28        128     142849   main.o
+       388         24          0         20         15       2263   parse_srec.o
+        44         24        192          0        256        824   startup_mkl46z4.o
+       484         42          0          4          0       1237   system_mkl46z4.o
+       384         26          0          0          0       8986   uart.o
+
+    ----------------------------------------------------------------------
+      1860        166        276         52        404     156159   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         0          0         52          0          5          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+        44          0          0          0          0         72   uidiv.o
+
+    ----------------------------------------------------------------------
+       132         16          0          0          0        140   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       130         16          0          0          0        140   mc_p.l
+
+    ----------------------------------------------------------------------
+       132         16          0          0          0        140   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      1992        182        276         52        404     156179   Grand Totals
+      1992        182        276         52        404     156179   ELF Image Totals
+      1992        182        276         52          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 2268 (   2.21kB)
+    Total RW  Size (RW Data + ZI Data)               456 (   0.45kB)
+    Total ROM Size (Code + RO Data + RW Data)       2320 (   2.27kB)
+
+==============================================================================
+

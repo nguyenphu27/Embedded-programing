@@ -1,0 +1,11 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\uart.o"
+".\objects\gpio.o"
+".\objects\parse_srec.o"
+".\objects\startup_mkl46z4.o"
+".\objects\system_mkl46z4.o"
+--library_type=microlib --strict --scatter ".\Objects\Bootloader_KL46Z.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Bootloader_KL46Z.map" -o .\Objects\Bootloader_KL46Z.axf

@@ -1,0 +1,11 @@
+.\seven_segment.o: ..\..\..\Src\NUC1xx-LB_002\Seven_Segment.c
+.\seven_segment.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\seven_segment.o: ..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\NUC1xx.h
+.\seven_segment.o: ..\..\..\..\CMSIS\CM0\CoreSupport\core_cm0.h
+.\seven_segment.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\seven_segment.o: ..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\system_NUC1xx.h
+.\seven_segment.o: ..\..\..\Include\System\SysInfra.h
+.\seven_segment.o: ..\..\..\Include\System\ModuleID.h
+.\seven_segment.o: ..\..\..\Include\Driver\DrvGPIO.h
+.\seven_segment.o: ..\..\..\Include\Driver\DrvSYS.h
+.\seven_segment.o: ..\..\..\Include\NUC1xx-LB_002\Seven_Segment.h

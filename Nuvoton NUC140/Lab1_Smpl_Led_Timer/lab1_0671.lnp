@@ -1,0 +1,12 @@
+--cpu Cortex-M0
+".\startup_nuc1xx.o"
+".\core_cm0.o"
+".\system_nuc1xx.o"
+".\ascii_table.o"
+".\lab1_0671.o"
+".\drvgpio.o"
+".\drvsys.o"
+--strict --scatter ".\lab1_0671.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lab1_0671.map" -o .\lab1_0671.axf

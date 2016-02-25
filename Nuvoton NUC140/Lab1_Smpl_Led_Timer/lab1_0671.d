@@ -1,0 +1,10 @@
+.\lab1_0671.o: lab1_0671.c
+.\lab1_0671.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\lab1_0671.o: ..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\NUC1xx.h
+.\lab1_0671.o: ..\..\..\..\CMSIS\CM0\CoreSupport\core_cm0.h
+.\lab1_0671.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\lab1_0671.o: ..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\system_NUC1xx.h
+.\lab1_0671.o: ..\..\..\Include\System\SysInfra.h
+.\lab1_0671.o: ..\..\..\Include\System\ModuleID.h
+.\lab1_0671.o: ..\..\..\Include\Driver\DrvSYS.h
+.\lab1_0671.o: ..\..\..\Include\Driver\DrvGPIO.h

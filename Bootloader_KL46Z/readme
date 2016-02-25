@@ -1,0 +1,3 @@
+The Bootloader is small application which allows user to load another application from PC via UART to RAM, 
+and finally jumps to the application to run it.
+Project run in Keil C. 

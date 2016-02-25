@@ -1,0 +1,16 @@
+--cpu Cortex-M0
+".\obj\core_cm0.o"
+".\obj\system_nuc1xx.o"
+".\obj\startup_nuc1xx.o"
+".\obj\smpl_drvspi.o"
+".\obj\lcd_driver.o"
+".\obj\ascii_table.o"
+".\obj\drvspi.o"
+".\obj\drvsys.o"
+".\obj\drvuart.o"
+".\obj\drvgpio.o"
+".\obj\retarget.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_NUC1xx.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map
+--info sizes --info totals
+--list ".\lst\Smpl_DrvSPI.map" -o .\obj\Smpl_DrvSPI.axf
